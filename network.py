@@ -6,7 +6,7 @@ class Network:
         # INISIALISASI SOCKET#
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         # HOST ADDRESS YG DIGUNAKAN ADALAH IPv4 DEVICE YANG MENJADI SERVER#
-        self.server = "26.137.125.5"
+        self.server = "26.46.137.30"
         self.port = 5005
         self.addr = (self.server, self.port)
         self.p = self.connect()

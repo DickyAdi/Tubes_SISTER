@@ -147,8 +147,8 @@ def main():
 
 # FUNGSI UNTUK MENAMPILKAN WINDOW MAIN MENU (SAAT PERTAMA KALI MAIN GAME) #
 def menu_screen():
-    run = True
-    clock = spg.time.Clock()
+    run = True 
+    clock = spg.time.Clock() 
     image = spg.image.load(r".\img\500.png")
 
     while run:
