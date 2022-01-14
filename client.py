@@ -83,9 +83,9 @@ def redrawWindow(win, game, p):
     spg.display.update()
 
 
-image1 = spg.image.load(r"C:\Users\Administrator\Downloads\Documents\Sister\Tubes\img\batu.png")
-image2 = spg.image.load(r"C:\Users\Administrator\Downloads\Documents\Sister\Tubes\img\gunting.png")
-image3 = spg.image.load(r"C:\Users\Administrator\Downloads\Documents\Sister\Tubes\img\kertas.png")
+image1 = spg.image.load(r".\img\batu.png")
+image2 = spg.image.load(r".\img\gunting.png")
+image3 = spg.image.load(r".\img\kertas.png")
 btns = [Button("Batu", 100, 500, (148,0,211),image1), Button("Gunting", 300, 500, (148,0,211),image2), Button("Kertas", 500, 500, (148,0,211), image3)]
 
 # FUNGSI MAIN #
@@ -149,7 +149,7 @@ def main():
 def menu_screen():
     run = True
     clock = spg.time.Clock()
-    image = spg.image.load(r"C:\Users\Administrator\Downloads\Documents\Sister\Tubes\img\500.png")
+    image = spg.image.load(r".\img\500.png")
 
     while run:
         clock.tick(60)
